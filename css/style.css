@@ -91,7 +91,7 @@ ul a:hover::after {
 /*Resize the wrap to see the search bar change!*/
 
 .wrap {
-    width: 30%;
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
