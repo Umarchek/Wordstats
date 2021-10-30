@@ -51,6 +51,7 @@ ul a:hover::after {
 
 .active {
     background-color: forestgreen;
+    border-radius: 50px;
 }
 
 /* search input box */
