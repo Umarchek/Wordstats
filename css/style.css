@@ -145,7 +145,7 @@ section {
 }
 
 /* media */
-@media (min-width: 280px) {
+@media (max-width: 325px) {
     .active {
         font-size: 17px;
         margin-right: 30px;
