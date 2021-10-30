@@ -5,29 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Wordstat</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Yandex Wordstat</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index">Yandex Stats</a></li>
-                <li><a class="active" style="border-radius: 50px;" href="google-stats">Google Stats</a></li>
-                <li><a href="youtube-stats">Youtube Stats</a></li>
-            </ul>   
-        </nav>
-        <div class="wrap">
-            <div class="search">
-               <input type="text" class="searchTerm" placeholder="Напишите слово которого хотите увидеть статистику ? (google-stats)">
-               <button type="submit" class="searchButton">
-                <i class="fas fa-search"></i>
-              </button>
+    <section>
+        <header>
+            <div class="navbar-main">
+                <nav>
+                    <ul>
+                        <li><a href="index">Yandex Stats</a></li>
+                        <li><a class="active" style="border-radius: 50px;" href="google-stats">Google Stats</a></li>
+                        <li><a href="youtube-stats">Youtube Stats</a></li>
+                    </ul>
+                </nav>
+                <div class="wrap">
+                    <div class="search">
+                        <input type="text" class="searchTerm"
+                            placeholder="Напишите слово которого хотите увидеть статистику ? (google-stats)">
+                        <button type="submit" class="searchButton">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
-         </div>
-    </header>
+            <div class="work-instruction">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Как пользоваться сайтом ?!</h5>
+                        <p class="card-text">Для использование сайта вам надо написать в поисковом строке.И нажать на
+                            кнопку
+                            <button class="searchB">
+                                <i class="fas fa-search"></i>
+                            </button></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
