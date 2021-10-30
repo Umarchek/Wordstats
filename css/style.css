@@ -142,17 +142,25 @@ section {
 
 .main-info-div {
     display: none;
+    margin-top: 150px;
 }
-
+.word{
+    display: flex;
+}
+#main_title_discription{
+    margin-left: 15px;
+}
 /* media */
 @media (max-width: 325px) {
     .active {
         font-size: 17px;
         margin-right: 30px;
     }
-    a{
+
+    a {
         font-size: 13px !important;
     }
+
     ul li {
         margin-left: 30px;
     }
