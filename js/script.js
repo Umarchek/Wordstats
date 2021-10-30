@@ -6,7 +6,7 @@ const maintitle_discription = document.querySelector('#main_title_discription');
 searchButton.addEventListener('click', () => {
     mainInfoDiv.style.display = 'block'
     maintext.innerHTML = searchValue.value
-    const randomNumber = Math.floor(Math.random() * 2000)
+    const randomNumber = Math.floor(Math.random() * 10000000)
     maintitle_discription.innerHTML = randomNumber
     searchValue.value = ''
 })
