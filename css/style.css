@@ -139,3 +139,21 @@ header {
 section {
     position: relative;
 }
+
+.main-info-div {
+    display: none;
+}
+
+/* media */
+@media (min-width: 280px) {
+    .active {
+        font-size: 17px;
+        margin-right: 30px;
+    }
+    a{
+        font-size: 13px !important;
+    }
+    ul li {
+        margin-left: 30px;
+    }
+}
